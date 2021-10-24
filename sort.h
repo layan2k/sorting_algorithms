@@ -4,20 +4,20 @@
 // import libraries
 
 #include<stdlib.h>
-#include<stdio.h>
+
 
 /**
  * struct listint_dub - Doubly linked list node
  *
  * @n: Integer
  * @nxt: Pointer to the next element of the list.
- * @prv: Pointer to the previous element of the list.
+ * @prev: Pointer to the previous element of the list.
  */
 typedef struct listint_dub
 {
 	const int n;
-	struct listint_dub *prv;
-	struct listint_dub *nxt;
+	struct listint_dub *prev;
+	struct listint_dub *next;
 } listint_t;
 
 
