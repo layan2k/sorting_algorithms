@@ -7,17 +7,17 @@
 
 
 /**
- * struct listint_dub - Doubly linked list node
+ * struct listint_s - Doubly linked list node
  *
  * @n: Integer
  * @nxt: Pointer to the next element of the list.
  * @prev: Pointer to the previous element of the list.
  */
-typedef struct listint_dub
+typedef struct listint_s
 {
 	const int n;
-	struct listint_dub *prev;
-	struct listint_dub *next;
+	struct listint_s *prev;
+	struct listint_s *next;
 } listint_t;
 
 
