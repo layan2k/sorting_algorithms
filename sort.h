@@ -30,4 +30,6 @@ void merge_sort(int *array, size_t size);
 void heap_sort(int *array, size_t size);
 void _ssort(int *a, int size, int n);
 void _qsort(int *a, int low, int high, int size);
+void cocktail_sort_list(listint_t **list);
+
 #endif
