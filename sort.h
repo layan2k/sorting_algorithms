@@ -31,5 +31,8 @@ void heap_sort(int *array, size_t size);
 void _ssort(int *a, int size, int n);
 void _qsort(int *a, int low, int high, int size);
 void cocktail_sort_list(listint_t **list);
+void recursion_heap(int *arr, int i, size_t size, int limit);
+void swap_nums(int *arr, int a, int b);
+
 
 #endif
